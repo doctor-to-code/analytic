@@ -1,7 +1,7 @@
 data = []
 with open('reviews.txt', 'r') as f:
-	for line in f:
-		data. append(line)
+	data = [line for line in f ]
+
 print(len(data))
 good = [g for g in data if 'good' in g]
 print(len(good))
