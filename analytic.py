@@ -11,3 +11,6 @@ print(len(fuck))
 
 love = [l for l in data if 'love' in l]
 print(len(love))
+
+fast = [l for l in data if 'fast' in l]
+print(len(fast))
